@@ -1,0 +1,93 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+#layout {
+    max-width: 1120px;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+}
+#left{
+    flex: 0.8;
+}
+#right{
+    flex: 1;
+}
+#min {
+    background: #0191d7 url(../images/bg1.png) no-repeat right bottom;
+    color: white; 
+    padding: 50px;
+}
+#min div {
+    display: flex;
+}
+#min h2 {
+    width: 120px;
+    background: #143e90;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+#min div:first-of-type h2 {
+    padding-top: 10px;
+}
+#tell {
+    background: #f4f5f9;
+    padding: 50px;
+    margin-top: 50px;
+}
+#tell a {
+    color: black;
+    text-decoration: none;
+}
+#tell > div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#tell ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+#tell li {
+    width: 50%;
+}
+#search {
+    background: #f4f5f9;
+    padding: 20px;
+    display: flex;
+}
+#search h2 {
+    padding-right: 50px;
+}
+#popular {
+    display: flex;
+    margin-bottom: 50px;
+}
+#popular p {
+    border: 1px dashed gray;
+    margin-right: 10px;
+}
+#option {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#option div {
+    width: 120px;
+    background: #f4f5f9;
+    text-align: center;
+}
+#center {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+#center div {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
+#center div a {
+    color: black;
+    text-decoration: none;
+}
